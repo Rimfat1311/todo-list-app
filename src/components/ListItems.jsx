@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import check from '../assets/icons/check.png'
 import deleteIcon from '../assets/icons/delete.png'
 
-const ListItems = ({text}) => {
+const ListItems = ({text, id, isComplete, deleteTodo}) => {
 
     
 
@@ -18,7 +18,7 @@ const ListItems = ({text}) => {
                 </p>
             </div>
 
-            <img className='w-4 cursor-pointer' src={deleteIcon} alt="" />
+            <img onClick={()=>{deleteTodo(id)}} className='w-4 cursor-pointer' src={deleteIcon} alt="" />
         </div>
     )
 }
