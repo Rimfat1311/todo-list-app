@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react'
 import check from '../assets/icons/check.png'
 import deleteIcon from '../assets/icons/delete.png'
 
-const ListItems = ({text, id, isComplete, deleteTodo, toggle}) => {
+const ListItems = ({text, id, isComplete, deleteTodo,  toggle}) => {
 
     const [change, setChange] =useState(false)
     const [istext, setText] =useState(text)
