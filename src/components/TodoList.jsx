@@ -62,6 +62,8 @@ const TodoList = () => {
         </button>
       </div>
       <div>
+      {/* important part */}
+      {/* to the next component */}
         {todoList.map((item) => (
           <ListItems
             key={item.id}
