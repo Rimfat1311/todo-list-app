@@ -18,9 +18,7 @@ const ListItems = ({ text, id, isComplete, deleteTodo, toggle }) => {
       setChange(false);
     }
   };
-  // const handleBlur = () => {
-  //     setIsEditing(false);
-  //   };
+  
 
 
   return (
