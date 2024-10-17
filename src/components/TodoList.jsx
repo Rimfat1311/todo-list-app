@@ -42,7 +42,7 @@ const TodoList = () => {
   }, [todoList]);
 
   return (
-    <div className='bg-slate-300 place-self-center w-1/3 h-[500px] flex flex-col text-slate-700 rounded-xl p-7'>
+    <div className='bg-slate-300 place-self-center w-full md:w-1/3 h-[500px] flex flex-col text-slate-700 rounded-xl p-7'>
       <div className='flex items-center m-7 gap-2'>
         <img className='w-7' src={img} alt="ToDo list icon" />
         <h1 className='text-4xl font-bold'>ToDo-list</h1>
